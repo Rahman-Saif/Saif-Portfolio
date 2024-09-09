@@ -9,6 +9,10 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    listStyleType:{
+      square:'square',
+      roman:'upper-roman',
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -73,5 +77,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),require('daisyui')],
 };
